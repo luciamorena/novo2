@@ -7,9 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
     
+        if ( isset($_POST)) {
+            echo 'NOME: ' . $_POST['nome']  . '<hr>';
+        } else {
+            echo 'NADA' . '<hr>';
+        }
 
-    <form action="teste.php" method="get">
+    ?>
+
+    <form action="#" method="POST">
 
         <input type="text" name="nome">
         <input type="submit" value="LOGIN">
