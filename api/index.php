@@ -18,10 +18,13 @@
     ?>
 
     <form action="/" method="POST">
-
         <input type="text" name="nome">
         <input type="submit" value="LOGIN">
+    </form>
 
+    <form action="teste.php" method="POST">
+        <input type="text" name="nome">
+        <input type="submit" value="TESTE">
     </form>
 
 </body>
